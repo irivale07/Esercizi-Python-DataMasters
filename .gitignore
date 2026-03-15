@@ -1,0 +1,31 @@
+# --- Ambienti Virtuali ---
+# Ignora le cartelle venv o env in qualsiasi sottocartella
+venv/
+env/
+.venv/
+ENV/
+
+# --- Python ---
+# File compilati e cache (vengono ricreati automaticamente)
+_pycache_/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Jupyter Notebook ---
+# File temporanei di checkpoint (creati da Jupyter mentre lavori)
+.ipynb_checkpoints
+/.ipynb_checkpoints/
+
+# --- Editor e Sistema Operativo ---
+# Impostazioni specifiche di VS Code, PyCharm e file di sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Report e Test (Opzionale per il futuro) ---
+# Se userai Pytest o Allure per i report dei test
+.pytest_cache/
+.test_report/
+*.log
